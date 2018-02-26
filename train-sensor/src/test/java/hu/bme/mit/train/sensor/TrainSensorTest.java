@@ -11,6 +11,12 @@ public class TrainSensorTest {
     public void before() {
         // TODO Add initializations
     }
+    
+    
+    @Test
+    public void ThisIsMyTest() {
+        // My own test
+    }
 
     @Test
     public void ThisIsAnExampleTestStub() {
