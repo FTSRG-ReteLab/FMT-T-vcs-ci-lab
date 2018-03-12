@@ -2,6 +2,7 @@ package hu.bme.mit.train.system;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import hu.bme.mit.train.interfaces.TrainController;
@@ -25,6 +26,7 @@ public class TrainSystemTest {
 		sensor.overrideSpeedLimit(50);
 	}
 	
+	@Ignore
 	@Test
 	public void OverridingJoystickPosition_IncreasesReferenceSpeed() {
 		sensor.overrideSpeedLimit(10);
